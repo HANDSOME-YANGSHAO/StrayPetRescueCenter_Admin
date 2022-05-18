@@ -1,0 +1,72 @@
+:root {
+  // 主题颜色
+  --ourTextColor: #ef4136;
+  --ourTheme: #f7811c;
+  --el-color-white: #ffffff !important;
+  --el-color-black: #000000 !important;
+  --el-color-primary: rgb(247, 127, 28) !important;
+  --el-color-primary-rgb: 64, 158, 255 !important;
+  --el-color-success-rgb: 103, 194, 58 !important;
+  --el-color-warning-rgb: 230, 162, 60 !important;
+  --el-color-danger-rgb: 245, 108, 108 !important;
+  --el-color-error-rgb: 245, 108, 108 !important;
+  --el-color-info-rgb: 144, 147, 153 !important;
+  --el-color-primary-light-1: rgba(247, 127, 28, 0.849) !important;
+  --el-color-primary-light-2: rgba(247, 129, 28, 0.8) !important;
+  --el-color-primary-light-3: rgba(247, 129, 28, 0.7) !important;
+  --el-color-primary-light-4: rgba(247, 129, 28, 0.6) !important;
+  --el-color-primary-light-5: rgba(247, 129, 28, 0.5) !important;
+  --el-color-primary-light-6: rgba(247, 129, 28, 0.4) !important;
+  --el-color-primary-light-7: rgba(247, 129, 28, 0.3) !important;
+  --el-color-primary-light-8: rgba(247, 129, 28, 0.2) !important;
+  --el-color-primary-light-9: rgba(247, 129, 28, 0.1) !important;
+  --el-color-primary-dark-2: rgb(247, 127, 28) !important;
+  --el-color-success: #67c23a;
+  --el-color-success-light-3: #95d475;
+  --el-color-success-light-5: #b3e19d;
+  --el-color-success-light-7: #d1edc4;
+  --el-color-success-light-8: #e1f3d8;
+  --el-color-success-light-9: #f0f9eb;
+  --el-color-success-dark-2: #529b2e;
+  --el-color-warning: #e6a23c !important;
+  --el-color-warning-light-3: #eebe77 !important;
+  --el-color-warning-light-5: #f3d19e !important;
+  --el-color-warning-light-7: #f8e3c5 !important;
+  --el-color-warning-light-8: #faecd8 !important;
+  --el-color-warning-light-9: #fdf6ec !important;
+  --el-color-warning-dark-2: #b88230 !important;
+  --el-color-danger: #f56c6c;
+  --el-color-danger-light-3: #f89898;
+  --el-color-danger-light-5: #fab6b6;
+  --el-color-danger-light-7: #fcd3d3;
+  --el-color-danger-light-8: #fde2e2;
+  --el-color-danger-light-9: #fef0f0;
+  --el-color-danger-dark-2: #c45656;
+  --el-color-error: #f56c6c;
+  --el-color-error-light-3: #f89898;
+  --el-color-error-light-5: #fab6b6;
+  --el-color-error-light-7: #fcd3d3;
+  --el-color-error-light-8: #fde2e2;
+  --el-color-error-light-9: #fef0f0;
+  --el-color-error-dark-2: #c45656;
+  --el-color-info: #909399;
+  --el-color-info-light-3: #b1b3b8;
+  --el-color-info-light-5: #c8c9cc;
+  --el-color-info-light-7: #dedfe0;
+  --el-color-info-light-8: #e9e9eb;
+  --el-color-info-light-9: #f4f4f5;
+  --el-color-info-dark-2: #73767a;
+  --el-bg-color: #f5f7fa;
+  // 阴影
+  --el-box-shadow-light: 0 2px 2px 0 rgba(0, 0, 0, 0.2) !important;
+}
+.theme {
+  color: #ef4136;
+  font-size: 0.35rem;
+  font-weight: bolder;
+  line-height: 0.6rem;
+}
+.guide {
+  font: 14px 微软雅黑, arial, Hiragino Sans GB, 宋体, sans-serif;
+  color: rgba(51, 51, 51, 0.5);
+}

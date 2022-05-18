@@ -1,0 +1,17 @@
+/* 初始化样式 */
+html {
+  // 100vw / x = 实际屏幕宽度（1920） / 100px(规定的font-size) 
+  font-size: 5.20833vw;
+}
+body {
+  margin: 0;
+  font-size: 12px;
+  font-family: Arial,Helvetica,sans-serif
+}
+
+/* 垂直水平居中 */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "strict": false,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": [
+      "esnext",
+      "dom", 
+      "dom.iterable", 
+      "scripthost", 
+      "ES6",
+      "ES2017",
+      "ES2020"
+    ],
+    "paths": {
+      "@/*": ["./src/*"],
+      "comps/*": ["./src/components/*"],
+      "stores/*": ["./src/stores/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/types/*.d.ts", "src/components/InfoCopms/userList/infodata.config.ts"]
+}
